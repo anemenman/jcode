@@ -2,7 +2,7 @@ package jcode.ch_01_java_core.q_33_hashcode;
 
 import org.apache.commons.codec.digest.DigestUtils;
 
-public class HashCode_02_StrongImpl {
+public class HashCode_03_StrongImpl {
 
   public static void main(String[] args) {
 
