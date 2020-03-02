@@ -9,10 +9,7 @@ import javax.management.NotCompliantMBeanException;
 import javax.management.ObjectName;
 
 /**
- * Run example:
- * 1) start main
- * 2) jconsole
- * 3) select local process for class->
+ * Run example: 1) start main 2) jconsole 3) select local process for class->
  * jcode.ch_01_java_core.q_78_jmx.JMX_01_MBean_MBeanServer
  */
 public class JMX_01_MBean_MBeanServer {
@@ -22,7 +19,8 @@ public class JMX_01_MBean_MBeanServer {
       MBeanRegistrationException, InterruptedException {
 
     MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
-    ObjectName name = new ObjectName("jcode.ch_01_java_core.q_78_jmx:type=Mye");
+    ObjectName name = new ObjectName(
+        "jcode.ch_01_java_core.q_78_jmx:type=Mye");//Unique name of the MBean
     My mbean = new My();
     mbs.registerMBean(mbean, name);
 
