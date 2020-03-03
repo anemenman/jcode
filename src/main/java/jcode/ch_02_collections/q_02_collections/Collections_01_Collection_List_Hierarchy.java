@@ -38,6 +38,9 @@ public class Collections_01_Collection_List_Hierarchy {
      *   default Spliterator<E> spliterator()
      *   default Stream<E> stream()
      *   default Stream<E> parallelStream()
+     *   default Stream<E> stream()
+     *   Object[] toArray();
+     *   <T> T[] toArray(T[] a);
      */
     Collection c;
 
