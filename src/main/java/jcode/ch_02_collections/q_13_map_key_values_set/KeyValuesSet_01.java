@@ -17,6 +17,9 @@ public class KeyValuesSet_01 {
 
     //Collection<V> values();
     System.out.println("map.values()--->" + map.values());
+
+    //Set<Map.Entry<K, V>> entrySet();
+    System.out.println("map.entrySet()--->" + map.entrySet());
   }
 
 }
