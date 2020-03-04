@@ -24,7 +24,6 @@ public class Collection_01_Remove {
       if (element != null) {
         list.remove(element); // Error! ConcurrentModificationException!
         System.out.println("removed...");
-        break;
       }
     }
 
