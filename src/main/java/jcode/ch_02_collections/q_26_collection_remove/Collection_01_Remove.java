@@ -23,6 +23,8 @@ public class Collection_01_Remove {
       System.out.println(element);
       if (element != null) {
         list.remove(element); // Error! ConcurrentModificationException!
+        System.out.println("removed...");
+        break;
       }
     }
 
