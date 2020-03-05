@@ -21,7 +21,7 @@ public class InstanceOf_vs_getClass_01 {
     System.out
         .println("aa.getClass().equals(AA.class) ---> " + (aa.getClass().equals(AA.class))); //true
 
-    System.out.println(aa.getClass() == A.class);
+//    System.out.println(aa.getClass() == A.class); // ERROR!!! error: incomparable types: Class<CAP#1> and Class<A>
   }
 
 }
