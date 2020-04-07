@@ -1,14 +1,11 @@
 package jcode.ch_04_io.q_07_inputstream_hierarchy;
 
-import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;
-import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.FilterInputStream;
 import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.PipedInputStream;
-import java.io.PushbackInputStream;
 import java.io.SequenceInputStream;
 import java.io.StringBufferInputStream;
 
