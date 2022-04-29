@@ -23,4 +23,7 @@ class Singleton {
     }
 
     // private constructor and other methods...
+    private Singleton() {
+        
+    }
 }
