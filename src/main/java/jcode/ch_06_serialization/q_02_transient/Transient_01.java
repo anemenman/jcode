@@ -1,4 +1,4 @@
-package jcode.ch_06_sirialization.q_02_transient;
+package jcode.ch_06_serialization.q_02_transient;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
