@@ -15,5 +15,6 @@ dependencies {
     implementation "commons-codec:commons-codec:${commons_codec_version}"
     annotationProcessor("org.projectlombok:lombok:${lombok_version}")
     implementation "org.projectlombok:lombok:${lombok_version}"
+    implementation "javax.servlet:javax.servlet-api:${javax_servlet_version}"
     testCompile group: 'junit', name: 'junit', version: '${junit_version}'
 }
