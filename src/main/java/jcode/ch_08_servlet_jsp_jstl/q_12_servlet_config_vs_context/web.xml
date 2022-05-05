@@ -1,0 +1,22 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>s1</servlet-name>
+        <servlet-class>HelloServlet</servlet-class>
+        <init-param>
+            <param-name>myParam</param-name>
+            <param-value>paramValue</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>s1</servlet-name>
+        <url-pattern>/servlet1</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>Country</param-name>
+        <param-value>Ukraine</param-value>
+    </context-param>
+
+</web-app>
