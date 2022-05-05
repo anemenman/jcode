@@ -1,0 +1,17 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>s1</servlet-name>
+        <servlet-class>HelloServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>s1</servlet-name>
+        <url-pattern>/servlet1</url-pattern>
+    </servlet-mapping>
+
+    <listener>
+        <listener-class>com.servlets.MyContextListener</listener-class>
+    </listener>
+    
+</web-app>
