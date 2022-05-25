@@ -1,0 +1,23 @@
+docker exec -it cbdfe170f2fa  /bin/bash
+
+psql -U kms
+
+\l - show db's
+
+\c postgres - select db
+
+\dt - show tables
+
+\q - exit
+
+CREATE DATABASE test; - create db
+
+create table a ( num int, name varchar );
+create table b ( num int, name varchar );
+
+INSERT INTO "public"."a" ("num", "name") VALUES (1, 'a1');
+INSERT INTO "public"."a" ("num", "name") VALUES (2, 'a2');
+INSERT INTO "public"."a" ("num", "name") VALUES (3, 'a3');
+INSERT INTO "public"."b" ("num", "name") VALUES (1, 'b1');
+INSERT INTO "public"."b" ("num", "name") VALUES (2, 'b2');
+INSERT INTO "public"."b" ("num", "name") VALUES (5, 'b5');
