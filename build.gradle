@@ -20,5 +20,10 @@ dependencies {
     implementation "jstl:jstl:${jstl_version}"
     implementation "taglibs:standard:${taglibs_version}"
 
+    testImplementation "org.mockito:mockito-core"
+    testImplementation "junit:junit:$junit_version"
+    testImplementation "org.junit.jupiter:junit-jupiter-engine:$junit_jupiter_api_version"
+    testImplementation "org.junit.jupiter:junit-jupiter-params:$junit_jupiter_api_version"
+
     testCompile group: 'junit', name: 'junit', version: '${junit_version}'
 }
