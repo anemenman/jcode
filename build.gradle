@@ -5,7 +5,7 @@ plugins {
 group 'jcode'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.9
 
 repositories {
     mavenCentral()
@@ -19,11 +19,12 @@ dependencies {
     implementation "javax.servlet:javax.servlet-api:${javax_servlet_version}"
     implementation "jstl:jstl:${jstl_version}"
     implementation "taglibs:standard:${taglibs_version}"
+    implementation "log4j:log4j:${log4j_version}"
 
     testImplementation "org.mockito:mockito-core"
-    testImplementation "junit:junit:$junit_version"
-    testImplementation "org.junit.jupiter:junit-jupiter-engine:$junit_jupiter_api_version"
-    testImplementation "org.junit.jupiter:junit-jupiter-params:$junit_jupiter_api_version"
+    testImplementation "junit:junit:${junit_version}"
+    testImplementation "org.junit.jupiter:junit-jupiter-engine:${junit_jupiter_api_version}"
+    testImplementation "org.junit.jupiter:junit-jupiter-params:${junit_jupiter_api_version}"
 
     testCompile group: 'junit', name: 'junit', version: '${junit_version}'
 }
