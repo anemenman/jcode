@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="02_complex_type_schema.xsd">
+    <country_name>France</country_name>
+    <population>59.7</population>
+</country>

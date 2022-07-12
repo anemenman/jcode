@@ -11,8 +11,8 @@ public class Externalizable_01 {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 
         System.out.println("Serialization...");
-        
-        FileOutputStream fileOutputStream = new FileOutputStream("save.ser");
+
+        FileOutputStream fileOutputStream = new FileOutputStream("serialization/save.ser");
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
 
         UserInfo userInfo = new UserInfo("Ivan", "Ivanov", "Ivan Ivanov's passport data");
@@ -23,7 +23,7 @@ public class Externalizable_01 {
 
         System.out.println("Deserialization...");
 
-        FileInputStream fileInputStream = new FileInputStream("save.ser");
+        FileInputStream fileInputStream = new FileInputStream("serialization/save.ser");
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 
 

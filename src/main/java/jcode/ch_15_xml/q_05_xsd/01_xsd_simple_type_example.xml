@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<age xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="01_xsd_simple_type_schema.xsd">10
+</age>

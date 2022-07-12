@@ -30,6 +30,11 @@ dependencies {
 //    implementation "org.slf4j:slf4j-log4j12:1.7.30"
     implementation "org.slf4j:jcl-over-slf4j:${slf4j_version}"
 
+    implementation "xerces:xercesImpl:${xerces_version}"
+    implementation "org.jdom:jdom2:${jdom_version}"
+    implementation "jakarta.xml.bind:jakarta.xml.bind-api:${jaxb_jakarta_version}"
+    implementation "com.sun.xml.bind:jaxb-ri:${jaxb_jakarta_version}"
+
     testImplementation "org.mockito:mockito-core"
     testImplementation "junit:junit:${junit_version}"
     testImplementation "org.junit.jupiter:junit-jupiter-engine:${junit_jupiter_api_version}"

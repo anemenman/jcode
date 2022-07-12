@@ -11,7 +11,7 @@ import java.time.LocalDate;
 public class Transient_01 {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        final String path = "user.ser";
+        final String path = "serialization/user.ser";
 
         //создаем наш объект
         User user = new User();
