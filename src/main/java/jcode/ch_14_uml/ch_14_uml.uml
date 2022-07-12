@@ -2,12 +2,45 @@
 <Diagram>
   <ID>JAVA</ID>
   <OriginalElement>jcode.ch_14_uml</OriginalElement>
-  <nodes />
+  <nodes>
+    <node x="19.75" y="202.0">jcode.ch_14_uml.AB</node>
+    <node x="154.75" y="237.0">jcode.ch_14_uml.A</node>
+    <node x="9.5" y="0.0">jcode.ch_14_uml.B</node>
+    <node x="0.0" y="101.0">jcode.ch_14_uml.BB</node>
+    <node x="135.5" y="101.0">jcode.ch_14_uml.IA</node>
+  </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="597.0" y="288.0" />
-  <SelectedNodes />
-  <Categories />
+  <edges>
+    <edge source="jcode.ch_14_uml.A" target="jcode.ch_14_uml.IA">
+      <point x="0.0" y="-25.5" />
+      <point x="19.25" y="25.5" />
+    </edge>
+    <edge source="jcode.ch_14_uml.AB" target="jcode.ch_14_uml.IA">
+      <point x="28.75" y="-60.5" />
+      <point x="106.0" y="177.0" />
+      <point x="154.75" y="177.0" />
+      <point x="-19.25" y="25.5" />
+    </edge>
+    <edge source="jcode.ch_14_uml.BB" target="jcode.ch_14_uml.B">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="jcode.ch_14_uml.AB" target="jcode.ch_14_uml.BB">
+      <point x="-28.75" y="-60.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="89.0" />
+  <SelectedNodes>
+    <node>jcode.ch_14_uml.IA</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
 </Diagram>
